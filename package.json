@@ -1,0 +1,16 @@
+{
+  "name": "g6-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@antv/g6": "^4.8.24",
+    "papaparse": "^5.4.1"
+  }
+}

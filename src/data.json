@@ -1,0 +1,39 @@
+[
+    {
+      "fullName": "Dr. John Doe",
+      "specialty": "General Dentist",
+      "addressLine": "123 Main St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    },
+    {
+      "fullName": "Dr. Jane Smith",
+      "specialty": "Orthodontist",
+      "addressLine": "456 Elm St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "latitude": 34.0520,
+      "longitude": -118.2435
+    },
+    {
+      "fullName": "Dr. Alice Johnson",
+      "specialty": "Pediatric Dentist",
+      "addressLine": "789 Pine St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "latitude": 34.0622,
+      "longitude": -118.2537
+    },
+    {
+      "fullName": "Dr. Robert Lee",
+      "specialty": "Endodontist",
+      "addressLine": "101 Maple St",
+      "city": "Santa Monica",
+      "state": "CA",
+      "latitude": 34.0195,
+      "longitude": -118.4912
+    }
+  ]
+  
