@@ -1,15 +1,1 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>G6 Demo</title>
-</head>
-<body>
-  <!-- <div id="container" style="width: 500px; height: 500px; border: 1px solid #000;"></div> -->
-  <div id="container"></div>
-
-  <!-- Add type="module" to use ES6 imports -->
-  <script src="/index.975ef6c8.js" defer=""></script>
-</body>
-</html>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Dental Clinic Network - Hub Structure</title><link rel="stylesheet" href="/index.04401bad.css"><script type="module" src="/index.a832e4be.js"></script></head><body> <div class="container"> <div class="card">  <div class="header"> <h1>VA Dental Clinic Network</h1> <p>General Dentists (Hubs) connected to nearby Specialists</p> </div>  <div class="search-panel"> <div class="search-title"> 🔍 Search & Filter Clinics </div> <div class="search-grid"> <div class="search-field"> <label class="search-label">City</label> <div class="multi-select"> <div class="multi-select-trigger search-input" id="cityTrigger"> <span id="cityDisplayText">All Cities</span> <span>▼</span> </div> <div class="multi-select-dropdown" id="cityDropdown">  </div> </div> <div class="selected-cities" id="selectedCities"></div> </div> <div class="search-field"> <label class="search-label">Doctor/Clinic Name</label> <input type="text" class="search-input" id="nameSearch" placeholder="Search by doctor or clinic name..."> </div> <div class="search-field"> <label class="search-label">Specialty</label> <select class="search-select" id="specialtyFilter"> <option value>All Specialties</option>  </select> </div> </div> <div class="search-actions"> <button class="btn btn-primary" id="searchBtn"> 🔍 Search </button> <button class="btn btn-success" id="findConnectionBtn"> 🔗 Find Connections </button> <button class="btn btn-secondary" id="clearBtn"> ✕ Clear </button> </div> <div id="searchResults" class="search-results" style="display:none"></div> </div>  <div class="legend"> <div class="legend-item"> <div class="hub legend-color" style="background:#ff6b6b"></div> <span>General Dentist (Hub)</span> </div> <div class="legend-item"> <div class="legend-color" style="background:#4ecdc4"></div> <span>Orthodontist</span> </div> <div class="legend-item"> <div class="legend-color" style="background:#45b7d1"></div> <span>Pediatric Dentist</span> </div> <div class="legend-item"> <div class="legend-color" style="background:#96ceb4"></div> <span>Endodontist</span> </div> <div class="legend-item"> <div class="legend-color" style="background:#feca57"></div> <span>Oral Surgeon</span> </div> <div class="legend-item"> <div class="legend-color" style="background:#ff9ff3"></div> <span>Periodontist</span> </div> <div class="legend-item"> <div class="legend-color" style="background:#a8e6cf"></div> <span>Other Specialist</span> </div> </div>  <div class="main-content">  <div class="graph-section"> <div id="graph-container"></div> </div>  <div class="details-section"> <div id="details-panel" class="details-panel"> <div class="placeholder"> <div class="placeholder-icon">🦷</div> <p><strong>Click or hover on a node</strong></p> <p>to view clinic details</p> </div> </div> </div> </div> </div> </div> </body></html>
