@@ -1,11 +1,9 @@
 {
   "name": "g6-demo",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html --open",
-      "build": "parcel build src/index.html --dist-dir dist"
-
+    "build": "parcel build src/index.html --dist-dir dist"
   },
   "devDependencies": {
     "parcel": "^2.0.0",
